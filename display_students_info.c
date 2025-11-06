@@ -19,7 +19,7 @@ int main()
 	FILE *fptr;
 	struct Student s;
 	
-	fptr = fopen("C:\\Users\\User\\Desktop\\c_programs\\results.dat" ,"rb");
+	fptr = fopen("C:\\Users\\User\\Desktop\\c-programs\\results.dat" ,"rb");
 	
 	if (fptr == NULL)
 	{
@@ -39,4 +39,5 @@ int main()
 	fclose(fptr);
 	
 	return 0;
+
 }
